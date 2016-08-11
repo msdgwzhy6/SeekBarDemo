@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SeekBarDemo</string>
+    <string name="slider_hint">请按住滑块，拖动到最右边</string>
+    <string name="slider_success">恭喜你，验证成功</string>
+</resources>

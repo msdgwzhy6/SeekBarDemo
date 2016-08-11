@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fedming.seekbardemo.MainActivity">
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:maxHeight="38dp"
+        android:minHeight="38dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:progressDrawable="@drawable/bt_seekbar"
+        android:thumb="@mipmap/thumb"
+        android:thumbOffset="1dp" />
+
+    <TextView
+        android:id="@+id/slider_hint"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="45dp"
+        android:gravity="center_vertical"
+        android:paddingEnd="60dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingStart="60dp"
+        android:text="@string/slider_hint"
+        android:textColor="#323232"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/slider_success"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:paddingStart="80dp"
+        android:text="@string/slider_success"
+        android:textColor="#323232"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
