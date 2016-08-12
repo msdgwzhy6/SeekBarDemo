@@ -20,7 +20,7 @@
         android:paddingRight="2dp"
         android:progressDrawable="@drawable/bt_seekbar"
         android:thumb="@mipmap/thumb"
-        android:thumbOffset="1dp" />
+        android:thumbOffset="0dp" />
 
     <TextView
         android:id="@+id/slider_hint"
